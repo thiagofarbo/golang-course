@@ -3,28 +3,25 @@ package main
 import "fmt"
 
 func main() {
+	var variavel1 string = "Variável 1"
+	variavel2 := "Variável 2"
 
-	var variavel1 string = "Thiago"
 	fmt.Println(variavel1)
-
-	//Declaracao Implicita
-	variavel2 := "Correa"
-
 	fmt.Println(variavel2)
-	fmt.Println(variavel1, variavel2)
 
 	var (
-		variavel3 string = "Teste3"
-		variavel4 string = "Teste4"
+		variavel3 string = "lalala"
+		variavel4 string = "lalala"
 	)
 
 	fmt.Println(variavel3, variavel4)
 
-	//Inferencia de tipos
-	variavel5, variavel6 := "variavel5", "variavel6"
+	variavel5, variavel6 := "Variável 5", "Variável 6"
 	fmt.Println(variavel5, variavel6)
 
-	//Invertendo valor de variaveis.
+	const constante1 string = "Constante 1"
+	fmt.Println(constante1)
+
 	variavel5, variavel6 = variavel6, variavel5
 	fmt.Println(variavel5, variavel6)
 }
