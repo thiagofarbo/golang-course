@@ -29,4 +29,10 @@ func main() {
 	user3 := user{name: "Thiago Augusto"}
 	fmt.Println(user3)
 
+	address1 := address{"Rua Luis Scott", "01111222"}
+
+	//Herancas fake porque Gol nao tem Herancas
+	thiago := user{"Correa", 32, address1}
+	fmt.Println(thiago.street, thiago.zipCode)
+
 }
